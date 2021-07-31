@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    color: #181818;
+    background: #fff;
+    font-family:'Quicksand', sans-serif;
+    padding: 0 1.5em;
+    margin-bottom: 2em;
+}
+
+.content{
+    max-width:1170px;
+    margin-left:auto;
+    margin-right: auto;
+    padding: 0em 0em 0.5em 0em;
+    
+}
+.logo{
+    text-align: center;
+    font-size: 3em;
+    background-color: #FAC70A;
+    color: #fff;
+}
+.mapa{
+    padding: 2em;
+    text-align: center;
+}
+.contacto2{
+    box-shadow: 0 0 50px 0 #000080;
+}
+
+.contacto2>* {
+    padding: 1em;
+}
+
+.formulario {
+    background: #FAC70A;
+}
+.formulario form p{
+    margin:0;
+    padding:1em;
+}
+.formulario form{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+.formulario form .block{
+    grid-column: 1/3;
+}
+.formulario form button,
+.formulario form input,
+.formulario form textarea{
+    width: 100%;
+    padding: 7em;
+    border: none;
+    background: none;
+    outline:none;
+    color:#fff;
+    border-bottom: 1px solid #150E4D;
+}
+.formulario form button{
+    background: #150E4D;
+    border:0;
+    text-transform: uppercase;
+    padding: 1em;
+}
+.formulario form button:hover,
+.formulario form button:focus{
+    background: #FAC70A;
+    color:#fff;
+    transition: background-color 1s ease-out;
+    outline: 0;
+}
+.info-formulario{
+    background: #fff;
+}
+.info-formulario h4,
+.info-formulario ul,
+.info-formulario p{
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+.info-formulario ul {
+    list-style: none;
+    padding: 0;
+}
+.info-formulario ul li{
+    padding: .3em;
+}
+/*LARGE SCREEN*/
+@media (min-width:700px) {
+    body{
+        padding: 0 4rem;
+    }
+    .contacto2 {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    .contacto2{
+        padding: 2em;
+    }
+    .info-formulario h4,
+    .info-formulario ul,
+    .info-formulario p{
+        padding: 1em;
+        text-align: left;
+    }
+}
+footer{
+    background-color: #150E4D;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    list-style-image: inherit;
+    color: white;
+    display: block;
+    text-align: center;
+}
+span{
+    padding-right:2em ;
+    float: right;
+}
