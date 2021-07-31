@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+h1 {
+    font-size: 50px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    background-color: #FAC70A;
+    color: #fff;
+    text-align: center;
+}
+
+h2 {
+    font-size: 35px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: lighter;
+}
+
+.headergeneral{
+    color: whitesmoke;
+    border: 1px solid #999999;
+    padding: 10px;
+}
+nav{
+    background-color: #150E4D;
+    border: 1px solid #999999;
+}
+footer{
+    background-color: #150E4D;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    list-style-image: initial;
+    color: white;
+}
+div{
+    background-color: #FAC70A ;
+}
+nav li button:hover,{
+    background-color: #FAC70A;
+    color:#fff;
+    transition: background-color 0.5s ease-out;
+    outline: 0;
+}
+nav ul li {
+    color: #fff;
+    list-style: none;
+    padding: 5px;
+    font: bold 25px 'Quicksand', sans-serif;
+    display: inline-block;
+    margin-left: 40px;
+    margin-right: 25px;
+}
+
+.s1 li{
+    color:black;
+    list-style: none;
+    display: inline;
+    padding: 30px;
+    margin-left: 0px;
+    margin-right: 60px;
+    font-size: small;
+}
+
+
+.s2 li {
+    color:black;
+    list-style: none;
+    display: inline-block;
+    padding: 70px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: small;
+}
+//estructure//
+    .titlenav{
+        padding: 2px;
+        margin-left: 0px;
+        margin-right: 175px;
+        border-left: 1px bold black;
+    }
+
+    header,section,footer,nav, {
+        display:block
+
+    } 
+    body{
+        background-color: white ;
+        padding: 25px;
+        text-align: center;
+    }
+    .agrupar{
+        width: auto;
+        margin: auto;
+        padding: auto;
+    }
+
+    img {
+        width:25%; 
+        height:100%;
+        display: inline-flexbox;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 10px;
+        margin-top: 30px;
+        padding: 20px;
+    }
+
+     span{
+         padding-right:2em ;
+         float: right;
+     }
